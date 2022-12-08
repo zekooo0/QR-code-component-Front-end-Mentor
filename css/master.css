@@ -65,8 +65,7 @@ body {
 
 .box {
   background-color: var(--White);
-  width: 375px;
-  height: fit-content;
+  width: 300px;
   position: relative;
   top: 50%;
   left: 50%;
@@ -85,26 +84,26 @@ body {
 
 img {
   padding: 15px;
-  border-radius: 7%;
-  -webkit-border-radius: 7%;
-  -moz-border-radius: 7%;
-  -ms-border-radius: 7%;
-  -o-border-radius: 7%;
+  border-radius: 8%;
+  -webkit-border-radius: 8%;
+  -moz-border-radius: 8%;
+  -ms-border-radius: 8%;
+  -o-border-radius: 8%;
 }
 
 .text {
-  padding: 10px 20px 40px;
+  padding: 0 30px 35px;
 
 }
 
-p:first-of-type {
+h1 {
   color: var(--Dark-blue);
-  margin-bottom: 20px;
-  font-size: 26px;
+  margin-bottom: 15px;
+  font-size: 20px;
   font-weight: bold;
 }
 
-p:last-of-type {
+p {
   color: var(--Grayish-blue);
-  font-size: 20px;
+  font-size: 14px;
 }
